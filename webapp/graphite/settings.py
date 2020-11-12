@@ -35,7 +35,7 @@ JAVASCRIPT_DEBUG = False
 DATE_FORMAT = '%m/%d'
 
 # Allow UTF-8 metrics' names (can cause performance issues)
-UTF8_METRICS = False
+UTF8_METRICS = True
 
 # Filesystem layout
 WEB_DIR = dirname( abspath(__file__) )
